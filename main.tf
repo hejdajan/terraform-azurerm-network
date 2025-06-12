@@ -1,4 +1,4 @@
-#Azure Generic vNet Module  k
+#Azure Generic vNet Module  kk
 data "azurerm_resource_group" "network" {
   count = var.resource_group_location == null ? 1 : 0
 
